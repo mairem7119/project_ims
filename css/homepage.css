@@ -1,0 +1,260 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+body {
+  font-family: Graphik, sans-serif;
+}
+.header {
+  width: 100%;
+  padding: 20px 0;
+  background: #f685a1;
+  text-align: right;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.LogoPage{
+  color: #fff;
+  font-size: 35px;
+  margin-left: 7rem;
+}
+.loginBtn {
+  font-size: 20px;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 0 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 5%;
+  margin-bottom: 10px;
+}
+.loginBtn:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.banner {
+  background: url(../images/banner.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.homepageContainer {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 50vh;
+}
+
+.bannerHeader h1 {
+  font-size: 100px;
+  color: #fff;
+}
+.bannerHeader p {
+  font-size: 36px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.bannerTagLine {
+  font-size: 20px;
+  color: #fff;
+}
+.bannerIcons {
+  margin-top: 50px;
+}
+.bannerIcons a {
+  font-size: 25px;
+  margin-left: 15px;
+  padding: 7px 13px;
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.bannerIcons a:first-child {
+  margin-left: 0;
+}
+.bannerIcons a:hover {
+  background-color: #fff;
+}
+.contentContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  width: 70%;
+  margin: auto;
+}
+.contentContainer a {
+  font-size: 35px;
+  background-color: #f685a1;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding: 10px 17px;
+  display: inline-block;
+}
+.contentContainer a:hover {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.contentPast {
+  text-align: center;
+  width: 300px;
+  padding: 10px;
+}
+.contentPast h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.contentPast p {
+  color: rgb(152, 151, 151);
+}
+.contentPast:hover {
+  border-top: 2px solid #f685a1;
+  border-bottom: 2px solid #f685a1;
+  transition: 0.5s all;
+}
+.homepageNotified {
+  height: 400px;
+  background: rgb(223, 222, 222);
+}
+.mainContent {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20%;
+}
+.leftContent {
+  width: 40%;
+}
+.leftContent h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.leftContent p {
+  color: rgb(122, 120, 120);
+  margin-bottom: 2rem;
+}
+.inputEmail {
+  position: relative;
+  border-radius: 5px;
+}
+.inputEmail input {
+  border-color: transparent;
+  line-height: 30px;
+  width: 250px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 3px 10px;
+}
+.inputEmail button {
+  position: absolute;
+  border-color: transparent;
+  background: #f685a1;
+  height: 40px;
+  width: 90px;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #fff;
+}
+.inputEmail button:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.rightVideo {
+  margin-top: 3rem;
+}
+.connectPart {
+  text-align: center;
+  margin-top: 4rem;
+  height: 200px;
+}
+.connectPart h3 {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.connectPart p {
+  margin-bottom: 1rem;
+  color: rgb(159, 157, 157);
+}
+.socialIconsContainer a {
+  font-size: 16px;
+  border-radius: 50%;
+  background: rgb(159, 157, 157);
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  padding: 4px 4px;
+  color: #fff;
+  margin-right: 5px;
+}
+.socialIconsContainer a:hover {
+  background: #f685a1;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background: rgb(223, 222, 222);
+}
+.footer a {
+  margin-right: 20px;
+  font-weight: bold;
+  color: rgb(157, 155, 155);
+  cursor: pointer;
+}

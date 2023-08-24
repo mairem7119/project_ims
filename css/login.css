@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background: url(../images/login-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: Graphik, sans-serif;
+}
+.loginHeader {
+  text-align: center;
+}
+.loginHeader h1 {
+  font-size: 92px;
+  color: #fff;
+}
+.underline {
+  width: 40rem;
+  background: #f685a2;
+  height: 0.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+.loginHeader h3 {
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+.loginBody {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  /* border: 1px solid rgba(0, 0 , 0, .5); */
+}
+.loginBody form {
+  margin: 0 auto;
+  padding: 50px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  height: 400px;
+  box-shadow: rgba(40, 40, 40, 0.08);
+  border-radius: 6px;
+}
+.loginInput {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.loginInput label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+}
+.loginInput input {
+  line-height: 25px;
+  width: 260px;
+  border-radius: 5px;
+  border-color: transparent;
+  margin-right: auto;
+  margin-left: auto;
+}
+.loginButton button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 35px;
+  gap: 10px;
+  background: rgba(80, 185, 206, 0.65);
+  border-color: transparent;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+}
+.errorMessage p{
+  font-size: 20px;
+  background: #fff;
+  text-align: center;
+  color: red;
+  padding: 10px;
+}
