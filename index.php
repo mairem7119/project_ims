@@ -75,8 +75,7 @@
           </form>
         </div>
         <div class="rightVideo">
-          <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" width="500px" height="300px"
-            frameborder="0"></iframe>
+          <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" width="500px" height="300px" frameborder="0"></iframe>
         </div>
       </div>
     </div>

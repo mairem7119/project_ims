@@ -65,7 +65,7 @@ body {
 .dashboard_sidebar {
   width: 20%;
   background: #a0a0a0;
-  height: 120vh;
+  height: 110vh;
 }
 .dashboard_content_container {
   width: 80%;
@@ -133,10 +133,132 @@ body {
 }
 .dashboard_contain_main {
   background: #fff;
-  min-height: 590px;
+  min-height: 600px;
   height: 100%;
 }
-
 .menuText {
   margin-left: 10px;
+}
+.form_register {
+  position: relative;
+}
+.addForm {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid rgb(126, 126, 126);
+  height: 450px;
+  border-radius: 5px;
+  position: relative;
+  padding: 10px;
+}
+.addFormDiv {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addInput {
+  width: 100%;
+  height: 32px;
+  border-radius: 5px;
+  border: 1px solid #d6d7da;
+}
+.addForm label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-weight: bold;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.addForm button {
+  border-color: transparent;
+  cursor: pointer;
+  float: right;
+  border-radius: 3px;
+  margin-top: 10px;
+  background-color: #e87995;
+  color: #ffff;
+}
+.addForm button:hover {
+  box-shadow: 2px 3px #555454;
+}
+.response-message {
+  font-size: 18px;
+  margin-top: 2rem;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.responseMess_success {
+  background: rgba(33, 231, 33, 0.1);
+  width: 70%;
+}
+.responseMess_error {
+  background: rgba(214, 50, 21, 0.1);
+  color: red;
+  width: 70%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.colum {
+  width: 100%;
+}
+.column-5 {
+  width: 41%;
+}
+.column-7 {
+  width: 58%;
+}
+.section_header {
+  font-size: 21px;
+  color: #f685a1;
+  border-bottom: 1px solid #ffd7e1;
+  padding-bottom: 11px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 4px solid #f690bf;
+}
+table,
+th,
+td {
+  border: 1px solid #cacaca;
+  border-collapse: collapse;
+}
+table {
+  width: 100%;
+}
+table th {
+  font-size: 15px;
+  text-transform: uppercase;
+  background: #f4f6f9;
+  text-align: center;
+}
+table td {
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
+}
+.userCount {
+  text-align: right;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f685a1;
+}
+.editUser {
+  text-decoration: none;
 }
